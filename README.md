@@ -6,22 +6,22 @@
 pharma_backend/
 │
 ├── backend/
-│   ├── main.py          ← FastAPI server — CHẠY FILE NÀY
-│   ├── pipeline.py      ← Ghép toàn bộ: OCR → match → rule → ML
-│   ├── ocr_module.py    ← Wrap Tesseract OCR
-│   ├── drug_matcher.py  ← Fuzzy match tên thuốc → drug master
-│   ├── rule_engine.py   ← 15 rules từ PHARMACEUTICAL_RULE.docx
-│   └── model_loader.py  ← Load .pkl và predict
+│   ├── main.py          
+│   ├── pipeline.py      
+│   ├── ocr_module.py    
+│   ├── drug_matcher.py  
+│   ├── rule_engine.py   
+│   └── model_loader.py  
 │
 ├── model/
-│   ├── isolation_forest.pkl  ← Copy từ Colab sau khi train
-│   └── scaler.pkl            ← Copy từ Colab sau khi train
+│   ├── isolation_forest.pkl  
+│   └── scaler.pkl            
 │
 ├── data/
-│   └── drug_master.csv  ← Copy demo2_drug_master_with_norm.csv vào đây
+│   └── drug_master.csv  
 │
 ├── frontend/
-│   └── index.html       ← Giao diện nhóm
+│   └── index.html       
 │
 └── requirements.txt
 ```
